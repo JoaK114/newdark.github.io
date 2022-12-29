@@ -62,6 +62,10 @@ img {
   text-align: center;
   margin: auto;
 }
+.menu__item1 {
+    text-align: center;
+    margin: auto;
+  }
 .menu__link {
   padding: 20px;
   color: white;
@@ -252,6 +256,10 @@ img {
 .main-title {
     text-align: center;
 }
+
+.main-header__login {
+    display: none;
+}
 .footer__title{
   border-bottom: 1px dotted #555;
   padding-bottom: 20px;
@@ -272,6 +280,14 @@ img {
   display: block;
   padding: 20px;
   border: 1px solid #555;
+}
+
+.footer__icon {
+  font-size: 1em;
+  text-decoration: none;
+  color: #555;  
+  display: block;
+  padding-bottom: 10px;
 }
 .copy {
   color: #555;
@@ -356,6 +372,9 @@ img {
     background: #333;
     color: white;
   }
+  .menu__item1{
+    display: none;
+  }
   .container-products {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 15px;
@@ -384,6 +403,9 @@ img {
   .main-header__container:nth-child(2){
     font-size: 1.3em;
   }
+  .menu__item1{
+    display: none;
+  }
   .slider{
     height: 500px;
     font-size: 1.5em;
@@ -403,7 +425,14 @@ img {
   .slider{
     height: 600px;
   }
+  .menu__item1{
+    display: none;
+  }
   .product__img {
     height: 200px;
+  }
+  .main-header__login {
+    opacity: 1;
+    visibility: visible;
   }
 }
